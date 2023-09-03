@@ -25,6 +25,7 @@ def addStaff(request):
         )
         
         dbQuery.save()
+        return redirect("/")
         
     return render(request, "index.html")
 
@@ -41,16 +42,15 @@ def editStaff(request, id):
         email = request.POST.get('email')
         number = request.POST.get('number')
         title = request.POST.get('title')
-    
-        dbQuery = Employee(
-            name = name,
-            gender = gender,
-            email = email,
-            number = number,
-            title = title
-        )
-    
-        dbQuery.save()
+        
+        edit_employee_list = Employee.objects.get(id=id)
+        edit_employee_list.name = name
+        edit_employee_list.gender = gender
+        edit_employee_list.email = email
+        edit_employee_list.number = number
+        edit_employee_list.title = title
+        edit_employee_list.save()
+        return redirect("/")
 
     employee_list = Employee.objects.get(id=id)
     employee_details = {"employee_list": employee_list}
