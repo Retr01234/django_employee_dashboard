@@ -87,10 +87,10 @@
                                     <td>{{employee.number}}</td>
                                     <td>{{employee.title}}</td>
                                     <td>
-                                        <button type="button" class="btn btn-danger">Delete</button>
+                                        <a type="button" class="btn btn-danger" href="/delete/{{employee.id}}">Delete</a>
                                     </td>
                                     <td>
-                                        <button type="button" class="btn btn-warning">Edit</button>
+                                        <a type="button" class="btn btn-warning" href="/edit/{{employee.id}}">Edit</a>
                                     </td>
                                 </tr>
                             {% endfor %}
