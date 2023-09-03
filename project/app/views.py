@@ -29,9 +29,9 @@ def addStaff(request):
         
     return render(request, "index.html")
 
-def deleteStaff(id):
-    employee = Employee.objects.get(id=id)
-    employee.delete()
+def deleteStaff(request, id):
+    employee_list = Employee.objects.get(id=id)
+    employee_list.delete()
     
     return redirect("/")
 
