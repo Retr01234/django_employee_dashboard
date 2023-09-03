@@ -63,18 +63,39 @@ No Images were used in the Production of this Project.
 
 This website contains 4 Pages and that is the Home Page, Edit Page, Login and Register Page. The Home and Edit page are only accessible if the User has logged in.
 
-### General features on each page
+* Home Page:
+  * Header
+  * Add Employee(s)
+  * See Current Employees
 
-### Future Implementations
+* Edit Page:
+  * Header
+  * Edit Formula
 
+* Login Page:
+  * Login Form (Username + Password)
+
+* Register Page:
+  * Register Form (Username, Password, Repeat Password)
 
 ### Accessibility
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+* Using well structured HTML.
+* Using Bootstrap to help aid with the UI/UX.
+* Making the Website fully responsive.
+* Ensuring that the website is fully functional as well as being nice to look at.
+* Making the App very User Friendly even for Non-Technical People.
 
 ## Technologies Used
-
 ### Languages Used
+* HTML was used to create the Templating
+* Python was used to create the entire app logic
 
 ### Frameworks, Libraries & Programs Used
+* Django - Main focus and used as backend framework to create functionality and features.
+* Bootstrap - Using Colors, CSS Classes and Fonts to make the website pretty and responsive.
+* SQL - For saving User Data
 
 ## Deployment & Local Development
 
