@@ -146,18 +146,35 @@ I have been mindful during coding to ensure that the website is as accessible fr
     - `AWS_SECRET_ACCESS_KEY` - your AWS secret access key.
     - `AWS_STORAGE_BUCKET_NAME` - the name of your AWS S3 bucket.
 
-#### How to Fork
+To fork the django_employee_dashboard repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, Retr01234/django_employee_dashboard
+3. Click the Fork button in the top right corner.
 
 #### How to Clone
+
+To clone the django_employee_dashboard  repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, Retr01234/django_employee_dashboard
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
 
 ## Credits
+The Inspiration to create this Application came from:
+
+* Idea [GeeksforGeeks](https://www.geeksforgeeks.org/django-crud-create-retrieve-update-delete-function-based-views/)
+* Content Inspiration [Mr.Robot](https://en.wikipedia.org/wiki/Mr._Robot)
 
 ### Code Used
+* [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
 
 ### Content
-
-###  Media
+All Content of this App was made by me Pave A. a.k.a. Retr01234
 
 ###  Acknowledgments
+I would like to thank my Mentor Jubril Akolade for helping me with this Project and encouraging me to keep going despite all difficulties.
