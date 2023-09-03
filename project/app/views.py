@@ -29,11 +29,11 @@ def addStaff(request):
         
     return render(request, "index.html")
 
-def deleteStaff(request, id):
-    employee_list = Employee.objects.all()
-    employee_details = {"employee_list": employee_list}
+def deleteStaff(id):
+    employee = Employee.objects.get(id=id)
+    employee.delete()
     
-    return render(request, "index.html", employee_details)
+    return redirect("/")
 
 def editStaff(request, id):
     if request.method == "POST":
