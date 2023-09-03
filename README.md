@@ -48,16 +48,20 @@ E-Corp Employee Dashboard is a simple Dashboard Application that allows users(si
 ## Design
 
 ### Colour Scheme
-
-![E-Corp Dashboard Palette](docs/colourpalette.png)
-
-The website uses a palette of pastel colours that are often used in the Bully Book Club logo images. The colour palette was created using the [Coolors](https://coolors.co/) website.
+The colour palette was created using the [Canva](https://www.canva.com/colors/color-palette-generator/) website.
+![E-Corp Dashboard Palette](media/palette.png)
 
 ### Typography
 
+Bootstrap v5.3.1 was used for all fonts in this Application.
+
 ### Imagery
 
+No Images were used in the Production of this Project.
+
 ## Features
+
+This website contains 4 Pages and that is the Home Page, Edit Page, Login and Register Page. The Home and Edit page are only accessible if the User has logged in.
 
 ### General features on each page
 
