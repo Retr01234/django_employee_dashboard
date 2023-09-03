@@ -74,6 +74,8 @@
                                 <th scope="col">Name</th>
                                 <th scope="col">Employee ID</th>
                                 <th scope="col">Title</th>
+                                <th scope="col"></th>
+                                <th scope="col"></th>
                             </tr>
                         </thead>
 
@@ -84,6 +86,12 @@
                                     <td>{{employee.name}}</td>
                                     <td>{{employee.number}}</td>
                                     <td>{{employee.title}}</td>
+                                    <td>
+                                        <button type="button" class="btn btn-danger">Delete</button>
+                                    </td>
+                                    <td>
+                                        <button type="button" class="btn btn-warning">Edit</button>
+                                    </td>
                                 </tr>
                             {% endfor %}
                         </tbody>

@@ -3,12 +3,12 @@ from .models import Employee
 
 # Create your views here.
 def index(request):
-    return render(request, "index.html")
-
-def addStaff(request):
     employee_list = Employee.objects.all()
     employee_details = {"employee_list": employee_list}
     
+    return render(request, "index.html", employee_details)
+
+def addStaff(request):    
     if request.method == "POST":
         name = request.POST.get('name')
         gender = request.POST.get('gender')
@@ -26,4 +26,4 @@ def addStaff(request):
         
         dbQuery.save()
         
-    return render(request, "index.html", employee_details)
+    return render(request, "index.html")
