@@ -164,6 +164,28 @@ To clone the django_employee_dashboard  repository:
 
 ## Testing
 
+## AUTOMATED TESTING
+
+###  W3C Validator
+
+
+### Lighthouse
+
+### WAVE
+
+## MANUAL TESTING
+
+### Testing User Stories
+
+### Full Testing
+
+## BUGS
+
+### Known Bugs
+
+
+### Solved Bugs
+
 ## Credits
 The Inspiration to create this Application came from:
 
