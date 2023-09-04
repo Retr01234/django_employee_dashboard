@@ -126,27 +126,8 @@ I have been mindful during coding to ensure that the website is as accessible fr
 7. Once the app has been deployed, click the "Open App" button to view the app.
 8. If using S3, you will need to set up an S3 bucket and add the environment variables to your Heroku app (see tutorial [here](https://testdriven.io/blog/storing-django-static-and-media-files-on-amazon-s3/) for reference.)
 
-#### Environment Variables
-- For local deployment, you will need to create a `.env` file in the root directory of the project and set the environment variables in this file.
-- For Heroku deployment, you will need to set the environment variables through the Heroku CLI or through the Heroku dashboard under 'Config Vars'.
-- You need to define the following variables:
-  - If using a Postgres database:
-    - `DATABASE_URL` - the URL for your Postgres database.
-    - `NAME` - the name of your database.
-    - `USER` - the username for your database.
-    - `PASSWORD` - the password for your database.
-    - `HOST` - the host for your database.
-    - `PORT` - the port for your database.
-  - Django settings:
-    - `SECRET_KEY` - the secret key for your Django project.
-    - `DEBUG` - set to `True` for development, `False` for production.
-  - If using S3:
-    - `USE_S3` - set to `True` to use S3, `False` to use local storage.
-    - `AWS_ACCESS_KEY_ID` - your AWS access key ID.
-    - `AWS_SECRET_ACCESS_KEY` - your AWS secret access key.
-    - `AWS_STORAGE_BUCKET_NAME` - the name of your AWS S3 bucket.
 
-To fork the django_employee_dashboard repository:
+#### To fork the django_employee_dashboard repository:
 
 1. Log in (or sign up) to Github.
 2. Go to the repository for this project, Retr01234/django_employee_dashboard
@@ -164,25 +145,24 @@ To clone the django_employee_dashboard  repository:
 
 ## Testing
 
-## AUTOMATED TESTING
+### AUTOMATED TESTING
 
-###  W3C Validator
+####  W3C Validator
 
 
-### Lighthouse
+#### Lighthouse
 
-### WAVE
+#### WAVE
 
-## MANUAL TESTING
+### MANUAL TESTING
 
 ### Testing User Stories
 
 ### Full Testing
 
-## BUGS
+### BUGS
 
 ### Known Bugs
-
 
 ### Solved Bugs
 
