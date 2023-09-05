@@ -237,6 +237,7 @@ Each device tested the site using the following browsers:
 | Main Header | Directs the user right to the main home page. | Clicked Main Header | Home page reloads | Pass |
 | Login Link in the Navbar | Will take the user to Login Page, but also give them the option to register for an account. | Click on Log In text | Login Page will show | Pass |
 | Send a Message in the Contact Section | Will not do anything, since its created with Bootstrap and has no functionality. Basically, just for display purposes only. | Fields can be filled out and Button can be clicked | Nothing will happen | Not Pass nor Fail |
+| Add, Edit and or Delete Staff from Dashboard | If user is logged in then they will see the Main Dashboard instead of Company Information. And from there, they can change the IT Department Employee List | Forms can be filled out and button will either add new staff, delete current staff or edit current Staff from the List. | Pass |
 
 `Login Page`
 
@@ -247,6 +248,21 @@ Each device tested the site using the following browsers:
 | Login Button | Will check if Username and Password exists and or is correct | Clicking Loggin Button | Will check for username and password in Database, and either direct you to Employee Dashboard or give you an error. | Pass |
 | Register Button | Redirects User to Register an Account Page | Clicking Register Button | Will redirect you to the page you can create an account. | Pass | |
 
+`Register Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Username Field | User must type a Username of their own choice into the Text field. | Type letters and or numbers in the field | Nothing happens until clicked on Register | Pass |
+| Password Field | User has to type a Password of their own choice into the Password field. | Type letters, numbers and or special characters in the field | Nothing happens until clicked on Login | Pass |
+| Repeat Password Field | User has to re-type the same passsword they typed above in the Password repeat field. | Type same password in the field | Nothing happens until clicked on Login | Pass |
+| Register Button | Checks if Username is available and passwords match. | Clicking Register Button | If successful, will automatically log you in and direct you to the Employee Dashboard. If not, it will ask you to fix the errors. | Pass | |
+
+`Edit Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Edit Form | User can make changes to the same Form as the Add Employee Form e.g. Name, Gender (whatever they choose) | Change current input values | Nothing happens until clicked on Save | Pass |
+| Save Button | New editted information will be saved to the System. | Click Save Button | If Input fields match the criteria e.g. A necessary @ symbol in the E-Mail field...New information will be saved and user will be redirected to the Main Dashboard. | Pass | |
 
 ## BUGS
 
@@ -271,7 +287,8 @@ The Inspiration to create this Application came from:
 * Content Inspiration [Mr.Robot](https://en.wikipedia.org/wiki/Mr._Robot)
 
 ### Code Used
-* [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/) 
+* [Bootstrap](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
+* [Forms.as_p](https://www.geeksforgeeks.org/form-as_p-render-django-forms-as-paragraph/) - Using the already provided forms for login and register given by Django
 
 ### Content
 All Content of this App was made by me Pave A. a.k.a. Retr01234
