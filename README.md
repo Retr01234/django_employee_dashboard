@@ -267,18 +267,19 @@ Each device tested the site using the following browsers:
 ## BUGS
 
 ### Known Bugs
-1. There was a Bug that when a IT Admin clicked on the Delete Button it would delete in the Backend Database but not show in real-time in the Frontend.
-
-2. The Edit Button did not:
-  * Go to the Edit Form
-  * It would not display the editted Information in the Frontend nor Backend.
-
-3. HTML Text Input Fields allowed empty spaces as valid input.
-
-4. When Loggin In it would not direct you to the correct page i.e. The Employee Dashboard
+Currently there are no Bugs and or errors in the Application and the application is working flawlessly.
+All Bugs listed below were solved and the page is fully functional and running without any Django and or Console Errors (expect for missing Favicon.ico - but we do not have that).
 
 ### Solved Bugs
-All Bugs listed above were solved and the page is fully functional and running without any Django or Console Errors (expect for missing Favicon.ico - but we do not have that).
+
+| No | Bug | How I solved the issue |
+| :--- | :--- | :--- |
+| 1 | There was a Bug that when a IT Admin clicked on the Delete Button it would delete in the Backend Database but not show in real-time in the Frontend. | As i debugged closer into the code, I realized that I forgot to display the correct paths in the urls.py File. |
+| 2 | Edit Button did not redirect to the Edit Form Page | Once I thoroughly checked the Edit Feature, I noticed the Form Method in the HTML File was wrong and then replaced it with the correct Method |
+| 3 | Eddited Information would not display in the Dashboard Page | In the views python file I saw that there was no feature to save the actual inputs. But with Djangos own .save() method, it made things easier and fast. |
+| 4 | HTML Text Input Fields allowed empty spaces as valid input | With the help of regex I created for each HTML Input a unique regex pattern that is made specifically for that particular input field. |
+| 5 | When Loggin In it would not direct you to the correct page i.e. The Employee Dashboard | I realized that I placed the wrong path in the wrong URL file. It should have been in the Project Directory and the Paths in the settings.py were also incorrect. |
+
 
 ## Credits
 The Inspiration to create this Application came from:
