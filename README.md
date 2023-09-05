@@ -230,6 +230,23 @@ Each device tested the site using the following browsers:
 * Safari
 * Firefox
 
+`Home/Main Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Main Header | Directs the user right to the main home page. | Clicked Main Header | Home page reloads | Pass |
+| Login Link in the Navbar | Will take the user to Login Page, but also give them the option to register for an account. | Click on Log In text | Login Page will show | Pass |
+| Send a Message in the Contact Section | Will not do anything, since its created with Bootstrap and has no functionality. Basically, just for display purposes only. | Fields can be filled out and Button can be clicked | Nothing will happen | Not Pass nor Fail |
+
+`Login Page`
+
+| Feature | Expected Outcome | Testing Performed | Result | Pass/Fail |
+| --- | --- | --- | --- | --- |
+| Username Field | User has to type their Username they created when registering for an account. | Type letters and or numbers in the field | Nothing happens until clicked on Login | Pass |
+| Password Field | User has to type their Password they created when registering for an account. | Type letters, numbers and or special characters in the field | Nothing happens until clicked on Login | Pass |
+| Login Button | Will check if Username and Password exists and or is correct | Clicking Loggin Button | Will check for username and password in Database, and either direct you to Employee Dashboard or give you an error. | Pass |
+| Register Button | Redirects User to Register an Account Page | Clicking Register Button | Will redirect you to the page you can create an account. | Pass | |
+
 
 ## BUGS
 
