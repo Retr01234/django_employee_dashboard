@@ -145,15 +145,50 @@ To clone the django_employee_dashboard  repository:
 5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
 
 ## Testing
+Testing was conducted very carefully through the entire project. As a heads up, since I had no pure HTML and instead had Django HTML the W3C Validator listed some errors due to the Django Knowledge but does not cause any problems in terms of functionality.
 
 ### AUTOMATED TESTING
 
 ####  W3C Validator
+Again since it wasnt pure HTML these errors are mostly to do with Django Syntax. And both of these files (Base.html & Edit.html) errors were too long to fit in one screenshot, therefore I provided with 2.
 
+##### Home/Main Page (I called it base)
+![Base.html W3C](media/base1.png)
+![Base.html W3C](media/base2.png)
+
+##### Edit Page to edit Employee Information
+![Edit.html W3C](media/edit1.png)
+![Edit.html W3C](media/edit2.png)
+
+##### Login Page (To Log In with your Credentials)
+![Login.html W3C](media/login.png)
+
+##### Register Page (To Log In with your Credentials)
+![Register.html W3C](media/register.png)
+
+#### Pylint
+Python Code was tested using Code Institute's own [Pylinter](https://pep8ci.herokuapp.com/)
+
+##### Models.py
+![Models.py](media/models.png)
+
+##### urls.py
+![urls.py](media/url.png)
+
+##### Forms.py
+![forms.py](media/forms.png)
+
+##### Views.py
+![views.py](media/views.png)
 
 #### Lighthouse
+I tested for everything in Lighthouse:
 
-#### WAVE
+##### Desktop
+![Desktop](media/Lighthouse_Desktop.png)
+
+##### Mobile
+![Mobile](media/Lighthouse_Mobile.png)
 
 ### MANUAL TESTING
 
