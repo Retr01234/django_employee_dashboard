@@ -190,9 +190,23 @@ I tested for everything in Lighthouse:
 ##### Mobile
 ![Mobile](media/Lighthouse_Mobile.png)
 
-### MANUAL TESTING
+## MANUAL TESTING
 
 ### Testing User Stories
+
+| Goals | How are they achieved? | Image |
+| :--- | :--- | :--- |
+| `First Time Visitors` |
+|  |  |  |
+| Understand what the product is about and what its trying to sell. | The main landing page gives a brief but detailed information about the product and its advantages. | :--- |
+|`Admin User` |
+|  |  |  |
+| Be able to Log In to their Accounts | Since it is an intern product for System Admins of E-Corp, only they can log in and use the features.  | :--- |
+| Be able to create an Account | If the User does not have an account, they will be given an option to do so in the login page. | :--- |
+| Create New Staff to the Dasboard | The user has a Form where they have to fill out some informations about the New Employees and once it matches the criteria, they will click Add to add a new Employee. | :--- |
+| Edit Staff Details | The user has the option to make changes to the users details with the click of the Edit button. | :--- |
+| Delete Staff from the System | The user can literally delete a staff member from the System with a single click on the Delete Button. | :--- |  |
+
 
 ### Full Testing
 Full testing was performed on the following devices:
@@ -217,7 +231,7 @@ Each device tested the site using the following browsers:
 * Firefox
 
 
-### BUGS
+## BUGS
 
 ### Known Bugs
 1. There was a Bug that when a IT Admin clicked on the Delete Button it would delete in the Backend Database but not show in real-time in the Frontend.
