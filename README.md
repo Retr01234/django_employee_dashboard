@@ -199,8 +199,18 @@ I tested for everything in Lighthouse:
 ### BUGS
 
 ### Known Bugs
+1. There was a Bug that when a IT Admin clicked on the Delete Button it would delete in the Backend Database but not show in real-time in the Frontend.
+
+2. The Edit Button did not:
+  * Go to the Edit Form
+  * It would not display the editted Information in the Frontend nor Backend.
+
+3. HTML Text Input Fields allowed empty spaces as valid input.
+
+4. When Loggin In it would not direct you to the correct page i.e. The Employee Dashboard
 
 ### Solved Bugs
+All Bugs listed above were solved and the page is fully functional and running without any Django or Console Errors (expect for missing Favicon.ico - but we do not have that).
 
 ## Credits
 The Inspiration to create this Application came from:
