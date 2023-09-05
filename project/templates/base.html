@@ -31,7 +31,7 @@
                             {% csrf_token %}
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="inputGroup-sizing-default">Name</span>
-                                <input type="text" pattern="^\S*$" name="name" placeholder="Full Name" class="form-control" required>
+                                <input type="text" pattern="^[a-zA-Z]+(?: [a-zA-Z]+)*$" name="name" placeholder="Full Name" class="form-control" required>
                             </div>
 
                             <br>
@@ -49,21 +49,21 @@
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="inputGroup-sizing-default">Email</span>
-                                <input type="email" pattern="^\S*$" name="email" placeholder="E-Mail Address" class="form-control" required>
+                                <input type="email" name="email" pattern="[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}" placeholder="E-Mail Address" class="form-control" required>
                             </div>
 
                             <br>
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="inputGroup-sizing-default">Employee ID</span>
-                                <input type="number" pattern="^\S*$" name="number" placeholder="Employee ID Number" class="form-control" required>
+                                <input type="number" name="number" pattern="[0-9]{5}" placeholder="Employee ID Number" class="form-control" required>
                             </div>
 
                             <br>
 
                             <div class="input-group mb-3">
                                 <span class="input-group-text" id="inputGroup-sizing-default">Job Title</span>
-                                <input type="text" pattern="^\S*$" name="title" placeholder="Title" class="form-control" required>
+                                <input type="text" name="title" pattern="^[a-zA-Z]+(?: [a-zA-Z]+)*$" placeholder="Title" class="form-control" required>
                             </div>
 
                             <br>

@@ -2,11 +2,11 @@ from django.shortcuts import render, redirect
 from .models import Employee
 
 # Create your views here.
-def index(request):
+def base(request):
     employee_list = Employee.objects.all()
     employee_details = {"employee_list": employee_list}
     
-    return render(request, "index.html", employee_details)
+    return render(request, "base.html", employee_details)
 
 def addStaff(request):    
     if request.method == "POST":
@@ -27,7 +27,7 @@ def addStaff(request):
         dbQuery.save()
         return redirect("/")
         
-    return render(request, "index.html")
+    return render(request, "base.html")
 
 def deleteStaff(request, id):
     employee_list = Employee.objects.get(id=id)
