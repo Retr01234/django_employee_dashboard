@@ -195,6 +195,27 @@ I tested for everything in Lighthouse:
 ### Testing User Stories
 
 ### Full Testing
+Full testing was performed on the following devices:
+
+* Laptop:
+  * Macbook Air M1 2021 13 inch screen
+
+* Mobile Devices:
+  * iPhone 12 Pro
+  * iPhone XR
+  * iPad Air
+  * Samsung Galaxy S20 Ultra
+
+* External Monitors:
+  * LG 32 Inch Ultra Wide
+  * MSI 24 Inch Gaming Monitor
+
+Each device tested the site using the following browsers:
+
+* Google Chrome
+* Safari
+* Firefox
+
 
 ### BUGS
 
