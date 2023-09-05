@@ -1,5 +1,6 @@
 from django.shortcuts import render, redirect
 from .models import Employee
+from .forms import UserRegistrationForm
 
 # Create your views here.
 def base(request):
@@ -56,3 +57,19 @@ def editStaff(request, id):
     employee_details = {"employee_list": employee_list}
     
     return render(request, "edit.html", employee_details)
+
+def register(request):
+    form = UserRegistrationForm()
+
+    if request.method == "POST":
+        form = UserRegistrationForm(request.POST)
+
+        if form.is_valid():
+            form.save()
+            return redirect("login")
+    else:
+        form = UserRegistrationForm()
+
+    context = {"form": form}
+
+    return render(request, "registration/register.html", context)
