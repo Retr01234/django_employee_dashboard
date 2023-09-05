@@ -27,7 +27,7 @@ Please find the live project [here:](https://github.com/Retr01234/django_employe
 
 ### Initial Discussion
 
-E-Corp Employee Dashboard is a simple Dashboard Application that allows users(site admins) to see and edit the current members of staff in the IT-Department.
+E-Corp Employee Dashboard is a simple Dashboard Application that allows users(site admins) to see and edit the current members of staff in the IT-Department. This website is not made for just any normal user to log in and start manipulating data. This is an internal product created by the Engineers from the the Company "E-Corp" that is used to manage their IT Department Employee Tables. So, only E-Corp IT System Administrators can create accounts and add, delete and or make changes to their IT Department Staff.
 
 #### Key information for the site
 
@@ -35,6 +35,7 @@ E-Corp Employee Dashboard is a simple Dashboard Application that allows users(si
 * Can I add new members to the IT Team?
 * Can I change the employees details?
 * Can I remove one or more employees from the List?
+* Product is only for E-Corp IT Admins
 
 ### User Stories
 
