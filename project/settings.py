@@ -31,11 +31,12 @@ TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['project.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['project.herokuapp.com', 'localhost',
+                 '8000-retr01234-django-employe-mavyph4sl6.us2.codeanyapp.com']
 
 
 # Application definition
@@ -49,6 +50,8 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
+    'allauth',
+    'allauth.account',
     'app'
 ]
 
