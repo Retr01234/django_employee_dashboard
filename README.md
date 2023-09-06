@@ -4,7 +4,11 @@ For the 4th Project of the Code Institute Course, I decided to make a Dashboard 
 
 Please find the live project [here:](https://employee-dashboard-3441c2d4b824.herokuapp.com/) 
 
-![AmIResponsive](images/responsive.jpg)
+![AmIResponsive] For unknown reasons Amiresponsive was not showing my Application to allow me to Screenshot my Responsive Design. Therefore I have taken Screenshots with Chrome Developer Tools as to how it would look:
+
+* ![Laptop/Desktop](images/Desktop-Laptop.png)
+* ![Tablet](images/Tablet.png)
+* ![Mobile](images/Mobile.png)
 
 ---
 
