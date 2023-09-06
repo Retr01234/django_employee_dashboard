@@ -35,7 +35,7 @@ DEBUG = False
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['employee-dashboard-3441c2d4b824.herokuapp.com',
+ALLOWED_HOSTS = ['employee-dashboard-3441c2d4b824.herokuapp.com', 'https://employee-dashboard-3441c2d4b824.herokuapp.com/'
                  '8000-retr01234-django-employe-mavyph4sl6.us2.codeanyapp.com', 'localhost']
 
 
