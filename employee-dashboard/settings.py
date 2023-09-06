@@ -35,7 +35,8 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['project.herokuapp.com', 'localhost', '8000-retr01234-django-employe-mavyph4sl6.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['employee-dashboard.herokuapp.com',
+                 '8000-retr01234-django-employe-mavyph4sl6.us2.codeanyapp.com']
 
 
 # Application definition
@@ -62,7 +63,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'project.urls'
+ROOT_URLCONF = 'employee-dashboard.urls'
 
 TEMPLATES = [
     {
@@ -80,7 +81,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'project.wsgi.application'
+WSGI_APPLICATION = 'employee-dashboard.wsgi.application'
 
 
 # Database
