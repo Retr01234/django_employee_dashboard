@@ -35,8 +35,7 @@ DEBUG = True
 
 X_FRAME_OPTIONS = 'SAMEORIGIN'
 
-ALLOWED_HOSTS = ['project.herokuapp.com', 'localhost',
-                 '8000-retr01234-django-employe-mavyph4sl6.us2.codeanyapp.com']
+ALLOWED_HOSTS = ['project.herokuapp.com', 'localhost', '8000-retr01234-django-employe-mavyph4sl6.us2.codeanyapp.com']
 
 
 # Application definition
@@ -50,8 +49,6 @@ INSTALLED_APPS = [
     'cloudinary_storage',
     'django.contrib.staticfiles',
     'cloudinary',
-    'allauth',
-    'allauth.account',
     'app'
 ]
 
