@@ -2,7 +2,7 @@
 
 For the 4th Project of the Code Institute Course, I decided to make a Dashboard for all Employees of the E-Corp IT Department. The inspiration of E-Corp came from the Prime Series called "Mr. Robot". We can see the current employees in the IT Department whilst being to manipulate their data at the same time.
 
-Please find the live project [here:](https://github.com/Retr01234/django_employee_dashboard) 
+Please find the live project [here:](https://employee-dashboard-3441c2d4b824.herokuapp.com/) 
 
 ![AmIResponsive](images/responsive.jpg)
 
