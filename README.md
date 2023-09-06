@@ -50,7 +50,7 @@ E-Corp Employee Dashboard is a simple Dashboard Application that allows users(si
 
 ### Colour Scheme
 The colour palette was created using the [Canva](https://www.canva.com/colors/color-palette-generator/) website.
-![E-Corp Dashboard Palette](media/palette.png)
+![E-Corp Dashboard Palette](images/palette.png)
 
 ### Typography
 
@@ -153,42 +153,42 @@ Testing was conducted very carefully through the entire project. As a heads up, 
 Again since it wasnt pure HTML these errors are mostly to do with Django Syntax. And both of these files (Base.html & Edit.html) errors were too long to fit in one screenshot, therefore I provided with 2.
 
 ##### Home/Main Page (I called it base)
-![Base.html W3C](media/base1.png)
-![Base.html W3C](media/base2.png)
+![Base.html W3C](images/base1.png)
+![Base.html W3C](images/base2.png)
 
 ##### Edit Page to edit Employee Information
-![Edit.html W3C](media/edit1.png)
-![Edit.html W3C](media/edit2.png)
+![Edit.html W3C](images/edit1.png)
+![Edit.html W3C](images/edit2.png)
 
 ##### Login Page (To Log In with your Credentials)
-![Login.html W3C](media/login.png)
+![Login.html W3C](images/login.png)
 
 ##### Register Page (To Log In with your Credentials)
-![Register.html W3C](media/register.png)
+![Register.html W3C](images/register.png)
 
 #### Pylint
 Python Code was tested using Code Institute's own [Pylinter](https://pep8ci.herokuapp.com/)
 
 ##### Models.py
-![Models.py](media/models.png)
+![Models.py](images/models.png)
 
 ##### urls.py
-![urls.py](media/url.png)
+![urls.py](images/url.png)
 
 ##### Forms.py
-![forms.py](media/forms.png)
+![forms.py](images/forms.png)
 
 ##### Views.py
-![views.py](media/views.png)
+![views.py](images/views.png)
 
 #### Lighthouse
 I tested for everything in Lighthouse:
 
 ##### Desktop
-![Desktop](media/Lighthouse_Desktop.png)
+![Desktop](images/Lighthouse_Desktop.png)
 
 ##### Mobile
-![Mobile](media/Lighthouse_Mobile.png)
+![Mobile](images/Lighthouse_Mobile.png)
 
 ## MANUAL TESTING
 
