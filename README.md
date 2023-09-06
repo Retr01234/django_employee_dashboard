@@ -65,19 +65,21 @@ No Images were used in the Production of this Project.
 This website contains 4 Pages and that is the Home Page, Edit Page, Login and Register Page. The Home and Edit page are only accessible if the User has logged in.
 
 * Home Page:
-  * Header
-  * Add Employee(s)
-  * See Current Employees
+  * Header ![Header](images/Header.png)
+  * Main Page (If Not Logged In):
+    * ![Main Page Pt.1 ](images/Main-Page-1.png)
+    * ![Main Page Pt.2 ](images/Main-Page-2.png)
+    * ![Main Page Pt.3 + Fake Contact Form ](images/Main-Page-Contact.png)
+  * Add Employee(s) & See Current Employees ![Add & See Employees](images/Main-Employee-Dashboard.png)
 
 * Edit Page:
-  * Header
-  * Edit Formula
+  * Edit Formula ![Edit](images/Edit-Staff-Info-Form.png)
 
 * Login Page:
-  * Login Form (Username + Password)
+  * Login Form (Username + Password) ![Login](images/Login-Page.png)
 
 * Register Page:
-  * Register Form (Username, Password, Repeat Password)
+  * Register Form (Username, Password, Repeat Password)![Register](images/Register-Page.png)
 
 ### Accessibility
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
